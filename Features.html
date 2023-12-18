@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeskSync Features</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    /* Reset some default styling */
+ body, h1, h2, ul {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            overflow: auto; 
+
+
+        }
+        .buttonTitle {
+          justify-content: space-between;
+          align-items: center;
+          text-align: center;
+          padding-bottom: 50px;
+          padding-top: 20px;
+        }
+        
+
+/* Style main content area */
+main {
+  display: flex;
+}
+.featurestext {
+   align-items: center;
+  text-align: center;
+  font-size: 50px;
+}
+.partext {
+   align-items: center;
+  text-align: center;
+
+}
+
+#features {
+ width:100%;
+ padding:40px; 
+ height: auto;
+
+}
+.featurebutton{
+margin-right: 50px;
+background-color: transparent;
+border: none;
+font-size: 18px;
+font-weight: bold;
+}
+
+.feature-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.feature-row1{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.feature-row2{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.feature-row3{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.feature {
+  width: 45%;
+  padding: 10px;
+   text-align: left;
+}
+
+.feature img {
+  width: 100%;
+  height: 90%;
+  margin-bottom: 20px;
+}
+
+/* Mobile responsive design */
+@media only screen and (max-width: 600px) {
+    body {
+        overflow: revert-layer;
+        overflow-y: auto;
+    }
+
+     .buttonTitle {
+          justify-content: space-between;
+          align-items: center;
+          text-align: center;
+          padding-bottom: 50px;
+          padding-top: 20px;
+        }
+        
+
+    main {
+        flex-direction: column;
+        width: auto;
+    }
+    .featurebutton{
+    margin-right: 1px;
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+   font-weight: bold;
+    }
+
+    #features {
+        padding: 20px;
+    }
+
+    .feature-row {
+        flex-direction: column;
+        width: auto;
+        margin-bottom: 20px;
+        display: flex;
+flex-direction: column-reverse;-reverse;
+    }
+     .feature-row1 {
+        flex-direction: column;
+        width: auto;
+        margin-bottom: 20px;
+    }
+    .feature-row2 {
+        flex-direction: column;
+        width: auto;
+        margin-bottom: 20px;
+        display: flex;
+flex-direction: column-reverse;-reverse;
+    }
+     .feature-row3 {
+        flex-direction: column;
+        width: auto;
+        margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 17px;
+    }
+
+    .feature {
+        width: auto;
+        padding: 20px;
+        text-align: left;
+        overflow: auto;
+
+    }
+    .featurestext {
+   align-items: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+    .feature img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 5px;
+    }
+}
+
+
+
+
+  </style>
+</head>
+<body>
+
+<main>
+
+<section id="features">
+<h1 class="featurestext">Features</h1>
+
+<p class="partext">Check out our Terms and Conditions for rules on using our platform. By<br>accessing our services, you agree to these guidelines. Thanks for choosing us!</p>
+<div class="buttonTitle">
+  <button class="featurebutton">Secure Hotdesk System:</button>
+  <button class="featurebutton">Real-Time Availability:</button>
+  <button class="featurebutton">Mobile Accessibility:</button>
+  <button class="featurebutton">Effortless tracking:</button>
+</div>
+
+
+<div class="feature-row">
+  <div class="feature">
+    <img src="images/Services.png" alt="Feature 1">
+   </div>
+  <div class="feature">
+    <h2>Secure Hotdesk System with Admin Approval and Role-Based Access
+    </h2>
+    <p>
+DeskSync incorporates a robust user authentication and verification process. Upon registration, users are required to verify their email address, and each new account undergoes an admin approval process before full access is granted. This ensures a secure and controlled onboarding experience.
+<br><br>Furthermore, our system employs Role-Based Access Control (RBAC), distinguishing between regular users and administrators. This means that once logged in, users are directed to a tailored interface based on their assigned role. Regular users enjoy a user-friendly interface for booking hotdesks, while administrators have a dedicated interface with additional controls and functionalities to manage approvals, monitor usage, and optimize the system for the best overall experience.</p>
+  </div>
+</div>
+
+<div class="feature-row1">
+  <div class="feature">
+    <h2>Real-Time Availability
+</h2>
+    <p>DeskSync employs a sophisticated real-time availability feature, allowing users to access instant and accurate information on the current status of available hotdesk spaces. This means that users can quickly identify and select unoccupied desks, reducing the risk of double bookings and optimizing the utilization of workspace resources.<br><br>The system continuously updates its database, reflecting changes in real-time, and ensures that users have the most up-to-date information at their fingertips. This not only streamlines the booking process but also enhances the overall user experience by providing a dynamic and responsive environment for managing workspace reservations.
+</p>
+  </div>
+  <div class="feature">
+    <img src="images/Services.png" alt="Feature 2">
+    </div>
+</div>
+
+<div class="feature-row2">
+  <div class="feature">
+    <img src="images/Services.png" alt="Feature ">
+   </div>
+  <div class="feature">
+    <h2>Mobile Accessibility</h2>
+    <p>Designed with full mobile accessibility, DeskSync enables users to seamlessly access and manage their bookings from smartphones and tablets. The responsive mobile interface ensures a user-friendly experience, allowing individuals to check real-time availability, reserve hotdesks, and view important information on the go.<br><br>This feature enhances flexibility, enabling users to make and adjust bookings conveniently, regardless of their location, fostering a dynamic and agile workspace management experience
+</p>
+  </div>
+</div>
+
+<div class="feature-row3">
+  <div class="feature">
+    <h2>Effortless tracking with booking history
+</h2>
+    <p>
+With DeskSync, our comprehensive hotdesk booking system, users can seamlessly navigate their booking history, while administrators gain an added advantage with access to the complete booking history of every user.<br><br>This robust feature provides detailed records of past reservations, including dates, times, and specific hotdesk locations. DeskSync's intuitive interface empowers both users and administrators, offering transparency and facilitating efficient management of workspace bookings.
+</p>
+  </div>
+  <div class="feature">
+    <img src="images/Services.png" alt="Feature 2">
+    </div>
+</div>
+
+</section>
+
+</main>
+
+
+</body>
+</html>
